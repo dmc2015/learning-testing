@@ -8,3 +8,4 @@ end
 
 gem 'rspec'
 gem 'coderay'
+gem 'pry-byebug'
