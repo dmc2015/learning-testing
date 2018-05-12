@@ -1,3 +1,4 @@
+#TYPES OF TESTS
 unit tests
 - does a specific method/class/ perform the expected behavior
 
@@ -18,14 +19,36 @@ there should be more unit tests than integration and more integration tests than
 
 
 
-
+#ALIASES
 context alias => describe
 example alias => it
 
-
+#HOOKS
 hook types
 before
 after
 around
 
 hooks can make tests confusing
+
+
+#MATCHERS
+to eq
+not_to eq
+to_to eq
+to be !=
+to be ==
+to be <
+to be >
+to be >=
+to be <=
+match (for strings)
+start_with (for strings)
+be_truthy
+be_falsey
+respond_to (supports a method)
+
+#COLLECTON MATCHERS
+include
+to all
+to all(have_attributes
