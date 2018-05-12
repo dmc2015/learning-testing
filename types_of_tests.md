@@ -14,3 +14,18 @@ acceptance tests
 - exercise code across many components, carrying out actions that the user completes
 
 there should be more unit tests than integration and more integration tests than acceptance tests
+
+
+
+
+
+context alias => describe
+example alias => it
+
+
+hook types
+before
+after
+around
+
+hooks can make tests confusing

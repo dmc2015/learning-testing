@@ -4,7 +4,7 @@ require 'pry-byebug'
 require 'set'
 
 #unit test
-describe Card do
+describe Card, :unit do
   def card(params= {})
     defaults = {
       suit: :hearts,
