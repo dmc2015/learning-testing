@@ -17,6 +17,11 @@ rspec
 https://app.pluralsight.com/library/courses/rspec-ruby-application-testing/recommended-courses
 
 
+documentation
+capybara
+https://github.com/teamcapybara/capybara
+rspec-rails
+https://github.com/rspec/rspec-rails
 
 cheat sheets
 https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf
