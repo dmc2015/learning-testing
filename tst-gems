@@ -1,0 +1,67 @@
+source 'https://rubygems.org'
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
+
+#for testing apis
+gem 'vcr'
+
+#VCR CONFIGURATION
+#spec/rails_helper.rb
+require 'vcr'
+VCR.configure do |c|
+  c.casset_library_dir = 'spec/support/vcr_cassettes' # where you will save the api results
+  c.hook_into :webmock
+  c.configure_rspec_metadata!
+  c.ignore_localhost = true
+  #c.default_casset_options = { re_record_interval: (3600 * (24 * 30))} #how often you record again
+end
+
+#after scenario
+
+# Ex:
+# scenario "by visiting payment page and enters cc info and sees redirect page",
+# :vcr, js: true do"
+
+#
+gem 'webmock'
+
+#for break points and debugging
+gem 'pry-byebug'
+
+
+#for unit tests
+gem 'rspec-rails'
+
+#rspec -init
+#generate specs
+#rails g rspec:controller NameOfController
+#rails g rspec:model ModelName
+
+#for integration tests
+gem 'capybara'
+#spec/rails_helper.rb
+#require 'capybara/rspec'
+
+
+#for factories
+gem 'facotry_bot_rails'
+
+#test highlighting
+gem 'coderay'
+
+#fake data
+gem 'ffaker'
+
+#run tests on file save
+gem 'guard-rspec'
+
+#for testing uis
+gem 'selenium-webdriver'
+
+
+#gives coverage of code
+gem 'simplecov'

@@ -42,6 +42,7 @@ to be <
 to be >
 to be >=
 to be <=
+to render_template
 match (for strings)
 start_with (for strings)
 be_truthy

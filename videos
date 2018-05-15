@@ -1,0 +1,27 @@
+vcr
+https://www.youtube.com/watch?v=kBKuHPdE5Kg
+https://stackoverflow.com/questions/28951791/using-vcr-with-rspec-in-feature-scenarios
+
+capybara
+https://www.codeschool.com/screencasts/integration-testing-with-capybara
+
+
+factory_bot/faker
+https://www.youtube.com/watch?v=x2qapy3s6Tg
+
+factory_girl/devise
+https://www.youtube.com/watch?v=zS5opOeWFhA
+
+
+rspec
+https://app.pluralsight.com/library/courses/rspec-ruby-application-testing/recommended-courses
+
+
+
+cheat sheets
+https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf
+https://gist.github.com/eliotsykes/5b71277b0813fbc0df56
+https://gist.github.com/zhengjia/428105
+https://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/
+https://devhints.io/rspec
+https://devhints.io/rspec-rails
